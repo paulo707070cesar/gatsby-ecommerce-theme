@@ -20,7 +20,7 @@ const MiniCart = (props) => {
   return (
     <div className={styles.root}>
       <div className={styles.titleContainer}>
-        <h4>My Bag</h4>
+        <h4>Minha Sacola</h4>
       </div>
       <div className={styles.cartItemsContainer}>
         <MiniCartItem {...sampleCartItem} />
@@ -40,7 +40,7 @@ const MiniCart = (props) => {
             checkout
           </Button>
           <div className={styles.linkContainer}>
-            <Link to={'/shop'}>continue shopping</Link>
+            <Link to={'/shop'}>continue Comprando</Link>
           </div>
         </div>
       </div>
