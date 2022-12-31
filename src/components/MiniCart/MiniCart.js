@@ -34,7 +34,7 @@ const MiniCart = (props) => {
             </span>
           </div>
           <span className={styles.taxNotes}>
-            Taxes and shipping will be calculated at checkout
+            Impostos e frete serão calculados no checkout
           </span>
           <Button onClick={() => navigate('/cart')} level={'primary'} fullWidth>
             checkout
